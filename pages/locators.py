@@ -6,3 +6,11 @@ class ManePageLocators():
 class LoginPageLocators():
     LOGIN_FORM = (By.ID, "login_form")
     REGISTER_FORM = (By.ID, "register_form")
+
+class ProductPageLocators():
+    ADD_TO_CART_BUTTON = (By.CLASS_NAME, "btn-add-to-basket")
+    PRODUCT_NAME = (By.CSS_SELECTOR, ".product_main > h1")
+    PRODUCT_COAST = (By.CSS_SELECTOR, ".product_main > .price_color")
+    GO_TO_CART_BUTTON = (By.CSS_SELECTOR, "span.btn-group > a")
+    CART_PRICE = (By.CSS_SELECTOR, ".alert-info strong")
+    ITEM_IN_CART_NAME = (By.CSS_SELECTOR, "#messages strong")
