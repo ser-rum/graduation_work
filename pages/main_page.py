@@ -1,5 +1,5 @@
 from .base_page import BasePage
-from.locators import ManePageLocators
+from .locators import ManePageLocators
 
 class MainPage(BasePage):
     def go_to_login_page(self):
