@@ -21,7 +21,7 @@ class BasePageLocators():
     BASKET_LINK = (By.CSS_SELECTOR, ".page_inner a.btn-default")
 
 class BasketPageLocators():
-    EMPTY_BASKET_MESSAGE = (By.CSS_SELECTOR, "#content_inner p")
+    EMPTY_BASKET_MESSAGE = (By.CSS_SELECTOR, "#content_inner > p")
     CHECKOUT_BUTTON = (By.CSS_SELECTOR, ".btn-block")
 
 
