@@ -11,4 +11,18 @@ class ProductPage(BasePage):
         assert name == self.browser.find_element(*ProductPageLocators.ITEM_IN_CART_NAME).text, "The name doesn`t match"
 
     def should_be_right_coast(self, coast):
-        assert coast == self.browser.find_element(*ProductPageLocators.CART_PRICE).text, "The coast in the cart doesn`t match"
+        assert coast == self.browser.find_element(*ProductPageLocators.ITEM_IN_CART_PRICE).text, "The coast in the cart doesn`t match"
+
+    def should_not_be_success_message(self):
+        assert self.is_not_element_present(*ProductPageLocators.SUCCESS_MESSAGE), \
+            "Success message is presented, but should not be"
+
+    def should_success_message_is_dissapear(self):
+        self.is_disappeared(*ProductPageLocators.SUCCESS_MESSAGE), \
+            "Success message is not disappeared, but should"
+
+"""    def should_be_product_name(self, name):
+        assert self.browser.find_element(*ProductPageLocators.PRODUCT_NAME), 'The product name is not find'
+
+    def should_be_product_coast(self):
+        assert self.browser.find_element(*ProductPageLocators.PRODUCT_COAST), 'The product coast is not find'"""
