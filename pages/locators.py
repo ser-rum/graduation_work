@@ -15,4 +15,14 @@ class ProductPageLocators():
     ITEM_IN_CART_NAME = (By.CSS_SELECTOR, "#messages strong")
     SUCCESS_MESSAGE = (By.CSS_SELECTOR, ".alert-success")
 
+class BasePageLocators():
+    LOGIN_LINK = (By.CSS_SELECTOR, "#login_link")
+    LOGIN_LINK_INVALID = (By.CSS_SELECTOR, "#login_link_inc")
+    BASKET_LINK = (By.CSS_SELECTOR, ".page_inner a.btn-default")
+
+class BasketPageLocators():
+    EMPTY_BASKET_MESSAGE = (By.CSS_SELECTOR, "#content_inner p")
+    CHECKOUT_BUTTON = (By.CSS_SELECTOR, ".btn-block")
+
+
 #Проверочный тег - "#product_description h2"

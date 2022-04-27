@@ -1,11 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="fc47681f-36c5-478b-8c3d-462b9fd58a26" name="Changes" comment="Test of product page is added, but modification is required.">
+    <list default="true" id="fc47681f-36c5-478b-8c3d-462b9fd58a26" name="Changes" comment="Negative tests of the product page are added, some over modifications are done.">
+      <change afterPath="$PROJECT_DIR$/pages/basket_page.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pages/base_page.py" beforeDir="false" afterPath="$PROJECT_DIR$/pages/base_page.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pages/locators.py" beforeDir="false" afterPath="$PROJECT_DIR$/pages/locators.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/product_page.py" beforeDir="false" afterPath="$PROJECT_DIR$/pages/product_page.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/main_page.py" beforeDir="false" afterPath="$PROJECT_DIR$/pages/main_page.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_main_page.py" beforeDir="false" afterPath="$PROJECT_DIR$/test_main_page.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test_product_page.py" beforeDir="false" afterPath="$PROJECT_DIR$/test_product_page.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -126,7 +128,14 @@
       <option name="project" value="LOCAL" />
       <updated>1650982436103</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Negative tests of the product page are added, some over modifications are done.">
+      <created>1651057269681</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1651057269681</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -148,6 +157,7 @@
     <MESSAGE value="&quot;locators&quot; file is added." />
     <MESSAGE value="Tests of login page are added." />
     <MESSAGE value="Test of product page is added, but modification is required." />
-    <option name="LAST_COMMIT_MESSAGE" value="Test of product page is added, but modification is required." />
+    <MESSAGE value="Negative tests of the product page are added, some over modifications are done." />
+    <option name="LAST_COMMIT_MESSAGE" value="Negative tests of the product page are added, some over modifications are done." />
   </component>
 </project>
