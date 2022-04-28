@@ -26,7 +26,7 @@ class BasePageLocators():
     AUTHORIZATION_LINK = (By.ID, "login_link")
 
 class BasketPageLocators():
-    EMPTY_BASKET_MESSAGE = (By.CSS_SELECTOR, "#content_inner p")
+    EMPTY_BASKET_MESSAGE = (By.CSS_SELECTOR, "#content_inner > p")
     CHECKOUT_BUTTON = (By.CSS_SELECTOR, ".btn-block")
 
 

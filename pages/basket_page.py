@@ -6,7 +6,7 @@ class BasketPage(BasePage):
         assert self.is_not_element_present(*BasketPageLocators.CHECKOUT_BUTTON), \
             "Basket is not empty"
 
-    def should_be_empty_basket_message(self):
+    '''def should_be_empty_basket_message(self):
         languages = {
             "ar": "سلة التسوق فارغة",
             "ca": "La seva cistella està buida",
@@ -35,4 +35,8 @@ class BasketPage(BasePage):
         message = self.browser.find_element(*BasketPageLocators.EMPTY_BASKET_MESSAGE).text
         print(message.split('. ')[0])
         assert languages[language] == message.split('.')[0], \
+            "\"Empty Basket\" message is not presented"'''
+
+    def should_be_empty_basket_message(self):
+        assert self.is_element_present(*BasketPageLocators.EMPTY_BASKET_MESSAGE), \
             "\"Empty Basket\" message is not presented"
