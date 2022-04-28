@@ -1,9 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="fc47681f-36c5-478b-8c3d-462b9fd58a26" name="Changes" comment="Tests of the basket page are added, but modification is required.">
+    <list default="true" id="fc47681f-36c5-478b-8c3d-462b9fd58a26" name="Changes" comment="Added some modifications at basket page.">
+      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/basket_page.py" beforeDir="false" afterPath="$PROJECT_DIR$/pages/basket_page.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/base_page.py" beforeDir="false" afterPath="$PROJECT_DIR$/pages/base_page.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/locators.py" beforeDir="false" afterPath="$PROJECT_DIR$/pages/locators.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/login_page.py" beforeDir="false" afterPath="$PROJECT_DIR$/pages/login_page.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_main_page.py" beforeDir="false" afterPath="$PROJECT_DIR$/test_main_page.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_product_page.py" beforeDir="false" afterPath="$PROJECT_DIR$/test_product_page.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,6 +48,8 @@
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="settings.editor.selected.configurable" value="preferences.sourceCode.Python" />
   </component>
   <component name="RunManager">
     <configuration name="login_page" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
@@ -137,7 +144,14 @@
       <option name="project" value="LOCAL" />
       <updated>1651068442729</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Added some modifications at basket page.">
+      <created>1651069343402</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1651069343402</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -161,6 +175,7 @@
     <MESSAGE value="Test of product page is added, but modification is required." />
     <MESSAGE value="Negative tests of the product page are added, some over modifications are done." />
     <MESSAGE value="Tests of the basket page are added, but modification is required." />
-    <option name="LAST_COMMIT_MESSAGE" value="Tests of the basket page are added, but modification is required." />
+    <MESSAGE value="Added some modifications at basket page." />
+    <option name="LAST_COMMIT_MESSAGE" value="Added some modifications at basket page." />
   </component>
 </project>
