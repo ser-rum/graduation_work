@@ -21,11 +21,11 @@ class TestLoginFromMainPage():
 
 
 def test_guest_cant_see_product_in_basket_opened_from_main_page(browser):
-   page = BasketPage(browser, link)
-   page.open()
-   page.go_to_basket_page()
-   page.should_no_items_in_basket()
-   page.should_be_empty_basket_message()
+    page = BasketPage(browser, link)
+    page.open()
+    page.go_to_basket_page()
+    page.should_no_items_in_basket()
+    page.should_be_empty_basket_message()
 
 '''def test_guest_is_on_login_page(browser):
    link = "http://selenium1py.pythonanywhere.com/en-gb/accounts/login/"
@@ -33,4 +33,4 @@ def test_guest_cant_see_product_in_basket_opened_from_main_page(browser):
    page.open()
    page.should_be_login_page()'''
 
-#python -m pytest -s -m login_guest test_main_page.py
+#python -m pytest -s test_main_page.py

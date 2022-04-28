@@ -10,6 +10,7 @@ class LoginPageLocators():
     PASSWORD_FORM = (By.ID, "id_registration-password1")
     PASSWORD_REPEAT_FORM = (By.ID, "id_registration-password2")
     AUTHORIZATION_BUTTON = (By.CSS_SELECTOR, "#register_form > .btn")
+
 class ProductPageLocators():
     ADD_TO_CART_BUTTON = (By.CLASS_NAME, "btn-add-to-basket")
     PRODUCT_NAME = (By.CSS_SELECTOR, ".product_main > h1")

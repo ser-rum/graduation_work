@@ -1,7 +1,8 @@
 from .pages.product_page import ProductPage
+from .pages.login_page import LoginPage
+from .pages.basket_page import BasketPage
 from .pages.locators import ProductPageLocators
 from .pages.locators import BasePageLocators
-from .pages.login_page import LoginPage
 import pytest
 import time
 
@@ -35,6 +36,15 @@ class TestUserAddToBasketFromProductPage():
         page.add_to_the_cart()
         page.should_be_right_name(name)
         page.should_be_right_coast(coast)
+
+
+def test_guest_cant_see_product_in_basket_opened_from_main_page(browser):
+    link = "http://selenium1py.pythonanywhere.com/catalogue/coders-at-work_207/"
+    page = BasketPage(browser, link)
+    page.open()
+    page.go_to_basket_page()
+    page.should_no_items_in_basket()
+    page.should_be_empty_basket_message()
 
 """
 def test_guest_cant_see_success_message_after_adding_product_to_basket(browser):
